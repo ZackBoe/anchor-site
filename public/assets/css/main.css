@@ -175,6 +175,15 @@ section.features {
 		font-size: 14px;
 		font-weight: 500;
 	}
+	section.features h2:before {
+		background-image: url("../img/icons.png");
+		content: "";
+		display: inline-block;
+		height: 24px;
+		margin: 0 15px -6px 0;
+		position: inherit;
+		width: 24px;
+	}
 	section.features article img {
 		position: relative;
 		top: 4px;
@@ -196,6 +205,43 @@ section.features {
 	section.features article {
 		margin-bottom: 30px;
 	}
+	section.features .markdown h2:before {
+		background-position: 0 0;
+	}
+	section.features .tiny h2:before {
+		background-position: 0 -24px;
+	}
+	section.features .drag-and-drop h2:before {
+		background-position: 0 -48px;
+	}
+	section.features .open-source h2:before {
+		background-position: 0 -72px;
+	}
+	section.features .i18n h2:before {
+		background-position: 0 -96px;
+	}
+	section.features .themes h2:before {
+		background-position: 0 -120px;
+	}
+	section.features .events h2:before {
+		background-position: 0 -144px;
+	}
+	section.features .install h2:before {
+		background-position: 0 -168px;
+	}
+	section.features .extensible h2:before {
+		background-position: 0 -192px;
+	}
+	section.features .art-directed h2:before {
+		background-position: 0 -216px;
+	}
+	section.features .free h2:before {
+		background-position: 0 -240px;
+	}
+	section.features .modern h2:before {
+		background-position: 0 -264px;
+	}
+
 
 #footer {
 	background: #f8f9fa;
